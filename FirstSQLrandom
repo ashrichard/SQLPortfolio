@@ -1,0 +1,6 @@
+CREATE TABLE animals that I have met (id INTERGER PRIMARY KEY, animal type TEXT, quantity INTERGER);
+INSERT INTO animals that I have met VALUES (1, dogs, 8);
+INSERT INTO animals that I have met VALUES (2, cats, 22);
+INSERT INTO animals that I have met VALUES (1, fish, 12);
+INSERT INTO animals that I have met VALUES (1, birds, 9);
+INSERT INTO animals that I have met VALUES (1, snakes, 3);
