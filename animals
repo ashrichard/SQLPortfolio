@@ -1,6 +1,0 @@
-CREATE TABLE animals (id INTERGER PRIMARY KEY, animal type TEXT, quantity INTERGER);
-INSERT INTO animals VALUES (1, dogs, 8),
-   (2, cats, 22),  
-   (1, fish, 12),
-   (1, birds, 9),
-   (1, snakes, 3);
