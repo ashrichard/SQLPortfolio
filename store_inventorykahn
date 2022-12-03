@@ -1,0 +1,19 @@
+CREATE TABLE store_inventory (id INTEGER PRIMARY KEY, item TEXT, price INTEGER, quantity INTEGER, aisle INTEGER);
+
+INSERT INTO store_inventory VALUES (1, "bike", 299, 15, 1),
+(2, "sofa", 1000, 2, 3),
+(3, "grill", 250, 10, 1),
+(4, "hamburger meat", 1.99, 20, 10),
+(5, "bananas", 1.25, 25, 9),
+(6, "milk", .99, 15, 11),
+(7, "apples", .25, 50, 9),
+(8, "oranges", .35, 50, 9),
+(9, "cheese", 1.45, 75, 11),
+(10, "chicken", 2.25, 25, 10),
+(11, "bleach", 3.99, 10, 4),
+(12, "paper towels", 1.50, 25, 4),
+(13, "paper plates", .85, 100, 5),
+(14, "coffee", 2, 40, 8),
+(15, "juice", 1, 19, 6);
+SELECT * FROM store_inventory;
+SELECT * FROM store_inventory;
